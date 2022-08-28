@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 
 const Header = () => {
 	return (
-		<div className="w-full bg-[#112565] h-[72px]">
+		<div className="w-full bg-[#112565] h-[72px] flex items-center">
 			<Navbar />
 		</div>
 	)
