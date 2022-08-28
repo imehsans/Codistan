@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
 	return (
-		<div className="flex items-center justify-between w-11/12 w-full mx-auto text-white">
+		<div className="flex items-center justify-between w-11/12 mx-auto text-white">
 			<div className="header_container">
 				<img
 					className="w-[150px] h-[35px] 2xl:w-[218.3px] 2xl:h-[41.46px]"
@@ -10,18 +10,53 @@ const Navbar = () => {
 					alt="Logo"
 				/>
 			</div>
-			<div className="flex justify-between w-1/2">
-				<div className="bg-purple">
+			<div className="flex justify-between w-[350px]">
+				<div className="flex items-center border border-white rounded-md bg-purple">
 					<input
+						id="searchbox"
 						type="text"
-						class="bg-purple borer-[1px] rounded-1 border-white font-[400] px-4 py-2"
+						class="bg-purple borer-[1px] focus:border-none focus:outline-none rounded-1 border-white font-[400] px-[16px] py-[1px] text-[18px] w-[200px] placeholder:text-white"
 						placeholder="Search"
 					/>
+					<div className="w-[40px] h-[40px] flex justify-center">
+						<a
+							href="#searchbox"
+							className="flex items-center justify-center w-full h-full"
+						>
+							<img
+								className="w-[16px] h-[16px]"
+								src="https://user-images.githubusercontent.com/34196609/187065957-1e20e340-cedc-45fa-9c3e-a85a33728d05.png"
+								alt="Search Icon"
+							/>
+						</a>
+					</div>
 				</div>
 
-				<div>Settings</div>
+				<div>
+					<a
+						href="#searchbox"
+						className="flex items-center justify-center w-full h-full"
+					>
+						<img
+							className="w-[25px] h-[25px]"
+							src="https://user-images.githubusercontent.com/34196609/187065949-70bd1fa9-a05e-49cd-b174-ebed43c1371c.png"
+							alt="Settings Icon"
+						/>
+					</a>
+				</div>
 
-				<div>notification</div>
+				<div>
+					<a
+						href="#searchbox"
+						className="flex items-center justify-center w-full h-full"
+					>
+						<img
+							className="w-[25px] h-[25px]"
+							src="https://user-images.githubusercontent.com/34196609/187065942-b6f665c3-9a3d-42e9-a941-04eaaa72e39c.png"
+							alt="Notification Icon"
+						/>
+					</a>
+				</div>
 			</div>
 		</div>
 	)

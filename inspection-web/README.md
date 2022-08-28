@@ -1,3 +1,17 @@
+#icons
+
+# Search Icon
+
+![searchIcon](https://user-images.githubusercontent.com/34196609/187065957-1e20e340-cedc-45fa-9c3e-a85a33728d05.png)
+
+#settings icon
+
+![settings-icon](https://user-images.githubusercontent.com/34196609/187065949-70bd1fa9-a05e-49cd-b174-ebed43c1371c.png)
+
+#notification icon
+
+![Notification](https://user-images.githubusercontent.com/34196609/187065942-b6f665c3-9a3d-42e9-a941-04eaaa72e39c.png)
+
 #images
 
 #disktop Logo
