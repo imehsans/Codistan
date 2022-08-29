@@ -24,8 +24,7 @@ const Yourprojects = () => {
 				onClick={() => toggleDropDown()}
 				id="dropdownDividerButton"
 				data-dropdown-toggle="dropdownDivider"
-				class="flex text-darkblue px-4 py-2  items-center focus:bg-dark"
-				type="button"
+				class="w-full py-2 justify-between flex text-darkblue px-4 items-center"
 			>
 				Your Projects{' '}
 				<svg
@@ -45,17 +44,36 @@ const Yourprojects = () => {
 				</svg>
 			</button>
 
-			<div id="dropdownDivider" class="z-40 w-44 rounded  shadow">
-				<ul class="py-1 text-sm" aria-labelledby="dropdownDividerButton">
-					<li>
-						<a href="#home" class="block py-2 px-4">
-							<Link to="./alpha">Alpha Project</Link>
-						</a>
+			<div id="dropdownDivider" className="py-1">
+				<ul aria-labelledby="dropdownDividerButton">
+					<li className="pl-3 border-l-4 border-white text-darkgray hover:cursor-pointer active:text-darkblue active:border-darkblue active:bg-lightgray">
+						<Link
+							to="./alpha"
+							className="flex items-center w-full py-1 text-gray900 active:text-darkblue "
+						>
+							<img
+								className="w-[16px] h-[16px]"
+								src="https://user-images.githubusercontent.com/34196609/187050281-b6951a81-fb6e-4318-9562-675fb45a9fd0.png"
+								alt=""
+							/>
+							<span className="pl-2">Alpha Project</span>
+						</Link>
 					</li>
-					<li>
-						<a href="#home" class="block py-2 px-4 ">
-							<Link to="./beta">Beta Project</Link>
-						</a>
+
+					<li className="pl-3 border-l-4 border-white text-darkgray hover:cursor-pointer active:text-darkblue active:border-darkblue active:bg-lightgray">
+						<Link
+							to="./beta"
+							className="flex items-center w-full py-1 text-gray900 active:text-darkblue "
+						>
+							<img
+								className="w-[16px] h-[16px]"
+								src="https://user-images.githubusercontent.com/34196609/187050281-b6951a81-fb6e-4318-9562-675fb45a9fd0.png"
+								alt=""
+							/>
+							<span className="pl-2 text-gray900 active:text-darkblue">
+								Beta Project
+							</span>
+						</Link>
 					</li>
 				</ul>
 			</div>

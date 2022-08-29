@@ -24,7 +24,7 @@ const TeamMem = () => {
 				onClick={() => toggleDropDown()}
 				id="dropdownDividerButton"
 				data-dropdown-toggle="dropdownDivider"
-				class="flex text-darkblue px-4 py-2  items-center focus:bg-dark"
+				class="w-full py-2 justify-between flex text-darkblue px-4 items-center"
 				type="button"
 			>
 				Team Members{' '}
@@ -45,17 +45,16 @@ const TeamMem = () => {
 				</svg>
 			</button>
 
-			<div id="countmain" class="z-40 w-44 rounded  shadow">
-				<a href="#home" class="block py-2 px-4">
-					+{count}
-				</a>
-				<a
+			<div id="countmain" class="py-1 flex justify-end border-b">
+				<div class="w-[35px] h-[35px] mx-2 text-white bg-green flex justify-center items-center rounded-full">
+					<span>+{count}</span>
+				</div>
+				<button
 					onClick={() => setCount(count + 1)}
-					href="#home"
-					class="text-[30px] font-[700] block bg-darkblue text-white py-2 px-4 "
+					class="text-[24px] bg-darkblue w-[35px] h-[35px] mr-4 text-white  flex justify-center items-center rounded-full"
 				>
 					+
-				</a>
+				</button>
 			</div>
 		</>
 	)

@@ -20,6 +20,7 @@ module.exports = {
 			secondary: '#727272',
 			lightgray: '#EDF2F6',
 			darkgray: '#9C9C9C',
+			gray900: '#686868',
 		},
 		extend: {},
 	},
