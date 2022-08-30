@@ -3,14 +3,21 @@ import React from 'react'
 const Navbar = () => {
 	return (
 		<div className="flex items-center justify-between w-11/12 mx-auto text-white">
-			<div className="header_container">
+			<div className="flex justify-center block w-full md:hidden">
 				<img
-					className="w-[150px] h-[35px] 2xl:w-[218.3px] 2xl:h-[41.46px]"
+					className="w-[130px]"
+					src="https://user-images.githubusercontent.com/34196609/187050289-6aa7210f-9aa1-4473-8060-bf6bb8606625.png"
+					alt="Logo"
+				/>
+			</div>
+			<div className="hidden md:block">
+				<img
+					className="w-[218.3px] h-[41.46px]"
 					src="https://user-images.githubusercontent.com/34196609/187050239-9ae7a383-6a7a-469b-be22-cbeb96ebf67e.png"
 					alt="Logo"
 				/>
 			</div>
-			<div className="flex justify-between w-[350px]">
+			<div className="hidden md:flex justify-between w-[350px]">
 				<div className="flex items-center border border-white rounded-md bg-purple">
 					<input
 						id="searchbox"

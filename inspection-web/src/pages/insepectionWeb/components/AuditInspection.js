@@ -2,7 +2,7 @@ import React from 'react'
 
 const AuditInspection = () => {
 	return (
-		<div className="pl-[25px] mr-[12px] py-[12px] rounded-md bg-white my-[12px]">
+		<div className=" hidden lg:block pl-[25px] mr-[12px] py-[12px] rounded-md bg-white my-[12px]">
 			<div className="w-full">
 				<h1 className="text-darkblue text-[30px] pb-[20px]">
 					Audit and Inspection

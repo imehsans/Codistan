@@ -2,8 +2,8 @@ import React from 'react'
 
 const InspectionScore = () => {
 	return (
-		<div className="flex mb-[35px]">
-			<div className="w-1/3 border divide-y border-lightgray divide-lightgray">
+		<div className="flex flex-col-reverse lg:flex-row mb-[35px]">
+			<div className="w-full border divide-y lg:w-1/3 border-lightgray divide-lightgray">
 				<div className="py-[30px] flex justify-between items-center w-full px-[30px]">
 					<span className="mr-[24px] font-[500]">Inspection Score:</span>
 					<div>
@@ -20,7 +20,7 @@ const InspectionScore = () => {
 						</span>
 					</div>
 				</div>
-				<div className="px-[30px] h-[500px] scroll-mb-0.5 overflow-y-auto">
+				<div className="px-[25px] lg:px-[30px] h-auto lg:h-[500px] lg:scroll-mb-0.5 lg:overflow-y-auto">
 					<ul className="list-decimal list-outside pl-[15px]">
 						<li className="py-2">
 							<div className="flex items-center justify-between">
@@ -223,7 +223,7 @@ const InspectionScore = () => {
 					</ul>
 				</div>
 			</div>
-			<div className="flex items-center justify-center w-2/3">
+			<div className="flex items-center justify-center w-full lg:w-2/3">
 				<img
 					className="w-10/12 h-10/12"
 					src="https://user-images.githubusercontent.com/34196609/187050261-6a7a57c2-c2aa-4e9a-bf3b-643e71ad775f.png"
