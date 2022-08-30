@@ -1,5 +1,9 @@
 #icons
 
+#arrow
+
+![Arrow - Down 2](https://user-images.githubusercontent.com/34196609/187238899-726e1834-b435-4438-adab-dfe267da1a8f.png)
+
 # Search Icon
 
 ![searchIcon](https://user-images.githubusercontent.com/34196609/187065957-1e20e340-cedc-45fa-9c3e-a85a33728d05.png)

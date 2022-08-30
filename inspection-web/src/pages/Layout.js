@@ -2,12 +2,13 @@ import { Link, Outlet } from 'react-router-dom'
 import Welcome from '../components/Welcome'
 import TeamMem from './teamMembers/TeamMem'
 import Yourprojects from './yourProject/YourProjects'
+
 const Layout = () => {
 	return (
 		<div className="flex w-full">
-			<nav className="bg-white w-[220px] h-[100vh] rounded-md mx-[12px] my-[12px]">
+			<nav className="lg:w-2/12 bg-white w-[220px] h-[100vh] rounded-md mx-[12px] my-[12px]">
 				<div className="py-[10px] pb-[25px]">
-					<Welcome name={'Ehsan'} />
+					<Welcome name={'John Doe'} />
 				</div>
 				<div className="divide-y divide-lightgray">
 					<ul>
@@ -107,7 +108,9 @@ const Layout = () => {
 				</div>
 			</nav>
 
-			<Outlet />
+			<div className="lg:w-10/12">
+				<Outlet />
+			</div>
 		</div>
 	)
 }
