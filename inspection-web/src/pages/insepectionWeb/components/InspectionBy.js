@@ -2,7 +2,7 @@ import React from 'react'
 
 const InspectionBy = () => {
 	return (
-		<div className="mr-[12px]  bg-white divide-y divide-lightgray">
+		<div className="bg-white border-t-8 divide-y divide-lightgray border-darkgray">
 			<ul className="pl-[25px] text-[14px] m-0 p-0  py-[25px]  flex flex-wrap items-center">
 				<li className="mr-[80px] flex">
 					<span className="mr-[24px] font-[500]">Inspection By:</span>
