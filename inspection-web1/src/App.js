@@ -22,13 +22,13 @@ function App() {
 				<Routes>
 					<Route path="/" element={<Layout />}>
 						<Route index element={<Home />} />
+						<Route path="/insepectionWeb" element={<InspectionWeb />} />
 						<Route path="/responsibilities" element={<MyResponsibilities />} />
 						<Route
 							path="/observationFeedback"
 							element={<ObservationAndFeedback />}
 						/>
 						<Route path="/incidentMgt" element={<IncidentManagement />} />
-						<Route path="/insepectionWeb" element={<InspectionWeb />} />
 						<Route path="/riskMgt" element={<RiskManagment />} />
 						<Route path="/learningMgt" element={<LearningManagment />} />
 						<Route path="/analytics" element={<Analytics />} />

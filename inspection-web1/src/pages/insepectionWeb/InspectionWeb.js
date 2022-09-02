@@ -12,7 +12,7 @@ const InspectionWeb = () => {
 			<div className="hidden lg:block">
 				<InspectionDetails />
 			</div>
-			<div className="mr-0 md:mr-[12px] mr-0 md:my-[12px] bg-white">
+			<div className="mr-0 md:mr-[12px] md:my-[12px] bg-white">
 				<InspectionSummaryHeading />
 				<InspectionScore />
 				<InspectionBy />
